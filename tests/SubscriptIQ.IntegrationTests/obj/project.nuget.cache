@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MxaMz6QynE8=",
+  "dgSpecHash": "kxVnjY3/kLk=",
   "success": true,
   "projectFilePath": "/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/SubscriptIQ.IntegrationTests.csproj",
   "expectedPackageFiles": [
@@ -18,13 +18,16 @@
     "/home/runner/.nuget/packages/microsoft.extensions.apidescription.server/8.0.0/microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.caching.memory/8.0.1/microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.diagnostics.abstractions/9.0.0/microsoft.extensions.diagnostics.abstractions.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.0/microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.hosting.abstractions/9.0.0/microsoft.extensions.hosting.abstractions.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.logging/8.0.1/microsoft.extensions.logging.8.0.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.3/microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -67,7 +70,7 @@
     "/home/runner/.nuget/packages/system.configuration.configurationmanager/8.0.0/system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.diagnostics.diagnosticsource/4.3.0/system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.diagnostics.diagnosticsource/9.0.0/system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.diagnostics.eventlog/8.0.0/system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
@@ -130,5 +133,18 @@
     "/home/runner/.nuget/packages/xunit.extensibility.execution/2.5.3/xunit.extensibility.execution.2.5.3.nupkg.sha512",
     "/home/runner/.nuget/packages/xunit.runner.visualstudio/2.5.3/xunit.runner.visualstudio.2.5.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "SubscriptIQ.Infrastructure depends on Microsoft.Extensions.Hosting.Abstractions (>= 8.0.2) but Microsoft.Extensions.Hosting.Abstractions 8.0.2 was not found. Microsoft.Extensions.Hosting.Abstractions 9.0.0 was resolved instead.",
+      "projectPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/SubscriptIQ.IntegrationTests.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/SubscriptIQ.IntegrationTests.csproj",
+      "libraryId": "Microsoft.Extensions.Hosting.Abstractions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

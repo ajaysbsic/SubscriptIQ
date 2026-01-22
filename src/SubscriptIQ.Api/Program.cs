@@ -1,13 +1,50 @@
+using SubscriptIQ.Infrastructure;
+using SubscriptIQ.Api.Endpoints;
+using Stripe;
+using CoreSubscriptionService = SubscriptIQ.Core.Services.SubscriptionService;
+using CoreEntitlementService = SubscriptIQ.Core.Services.EntitlementService;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Add services to the container
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new() { 
+        Title = "SubscriptIQ API", 
+        Version = "v1",
+        Description = "Plug-and-play subscription, billing, and entitlement platform"
+    });
+});
+
+// Add Infrastructure services (DbContext, Repositories, Background Services)
+builder.Services.AddInfrastructure(builder.Configuration);
+
+// Add Core services
+builder.Services.AddScoped<CoreSubscriptionService>();
+builder.Services.AddScoped<CoreEntitlementService>();
+
+// Configure Stripe
+var stripeApiKey = builder.Configuration["Stripe:SecretKey"];
+if (!string.IsNullOrWhiteSpace(stripeApiKey))
+{
+    StripeConfiguration.ApiKey = stripeApiKey;
+}
+
+// Add CORS
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -15,30 +52,14 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+// Map API endpoints
+app.MapHealthEndpoints();
+app.MapTenantEndpoints();
+app.MapPlanEndpoints();
+app.MapSubscriptionEndpoints();
+app.MapEntitlementEndpoints();
+app.MapWebhookEndpoints();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

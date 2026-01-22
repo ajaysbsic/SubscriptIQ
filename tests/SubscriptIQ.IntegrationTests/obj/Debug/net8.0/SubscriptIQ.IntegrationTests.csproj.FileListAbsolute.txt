@@ -137,3 +137,9 @@
 /home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
 /home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Npgsql.dll
 /home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
