@@ -1,0 +1,307 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/SubscriptIQ.IntegrationTests.csproj": {}
+  },
+  "projects": {
+    "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Api/SubscriptIQ.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Api/SubscriptIQ.Api.csproj",
+        "projectName": "SubscriptIQ.Api",
+        "projectPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Api/SubscriptIQ.Api.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/SubscriptIQ.Core.csproj": {
+                "projectPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/SubscriptIQ.Core.csproj"
+              },
+              "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/SubscriptIQ.Infrastructure.csproj": {
+                "projectPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/SubscriptIQ.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/SubscriptIQ.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/SubscriptIQ.Core.csproj",
+        "projectName": "SubscriptIQ.Core",
+        "projectPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/SubscriptIQ.Core.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/SubscriptIQ.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/SubscriptIQ.Infrastructure.csproj",
+        "projectName": "SubscriptIQ.Infrastructure",
+        "projectPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/SubscriptIQ.Infrastructure.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/SubscriptIQ.Core.csproj": {
+                "projectPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/SubscriptIQ.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[50.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/SubscriptIQ.IntegrationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/SubscriptIQ.IntegrationTests.csproj",
+        "projectName": "SubscriptIQ.IntegrationTests",
+        "projectPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/SubscriptIQ.IntegrationTests.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Api/SubscriptIQ.Api.csproj": {
+                "projectPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Api/SubscriptIQ.Api.csproj"
+              },
+              "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/SubscriptIQ.Infrastructure.csproj": {
+                "projectPath": "/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/SubscriptIQ.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.8.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Testcontainers.PostgreSql": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

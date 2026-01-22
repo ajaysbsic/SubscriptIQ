@@ -1,0 +1,12 @@
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/bin/Debug/net8.0/SubscriptIQ.Core.deps.json
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/bin/Debug/net8.0/SubscriptIQ.Core.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/bin/Debug/net8.0/SubscriptIQ.Core.pdb
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/obj/Debug/net8.0/SubscriptIQ.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/obj/Debug/net8.0/SubscriptIQ.Core.AssemblyInfoInputs.cache
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/obj/Debug/net8.0/SubscriptIQ.Core.AssemblyInfo.cs
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/obj/Debug/net8.0/SubscriptIQ.Core.csproj.CoreCompileInputs.cache
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/obj/Debug/net8.0/SubscriptIQ.Core.sourcelink.json
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/obj/Debug/net8.0/SubscriptIQ.Core.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/obj/Debug/net8.0/refint/SubscriptIQ.Core.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/obj/Debug/net8.0/SubscriptIQ.Core.pdb
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Core/obj/Debug/net8.0/ref/SubscriptIQ.Core.dll
