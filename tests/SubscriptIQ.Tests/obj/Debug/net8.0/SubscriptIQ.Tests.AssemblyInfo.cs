@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubscriptIQ.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+daffb580ba27a0c0057e200b5a0039d0a3a6069a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5354687473dfc27c7d033a024dd4343d2fb3dac5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubscriptIQ.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubscriptIQ.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

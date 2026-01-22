@@ -128,3 +128,12 @@
 /home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/obj/Debug/net8.0/SubscriptIQ.IntegrationTests.pdb
 /home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/obj/Debug/net8.0/SubscriptIQ.IntegrationTests.genruntimeconfig.cache
 /home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/obj/Debug/net8.0/ref/SubscriptIQ.IntegrationTests.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Npgsql.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/tests/SubscriptIQ.IntegrationTests/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

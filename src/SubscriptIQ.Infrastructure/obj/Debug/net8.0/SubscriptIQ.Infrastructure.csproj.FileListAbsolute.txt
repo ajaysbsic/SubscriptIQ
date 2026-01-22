@@ -14,3 +14,5 @@
 /home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/obj/Debug/net8.0/refint/SubscriptIQ.Infrastructure.dll
 /home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/obj/Debug/net8.0/SubscriptIQ.Infrastructure.pdb
 /home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/obj/Debug/net8.0/ref/SubscriptIQ.Infrastructure.dll
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/bin/Debug/net8.0/SubscriptIQ.Infrastructure.runtimeconfig.json
+/home/runner/work/SubscriptIQ/SubscriptIQ/src/SubscriptIQ.Infrastructure/obj/Debug/net8.0/SubscriptIQ.Infrastructure.genruntimeconfig.cache
